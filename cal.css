@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+    text-align: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.display input {
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+    text-align: right;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.calcy-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.btn1{
+    background-color: #707272d1;
+    height: 8vh;
+    width: 4vw;
+    color: #000000;
+    font-weight: 700;
+    border: none;
+    padding: 14px 12px 12px 12px;
+    font-size: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0px;
+}
+
+.btn2{
+    background-color: #FF9500;
+    height: 8vh;
+    width: 4vw;
+    color: #000000;
+    font-weight: 700;
+    border: none;
+    padding: 14px 12px 12px 12px;
+    font-size: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0px;
+}
+
+
+button{
+    font-size: xx-large;
+}
+.btn:hover {
+    background-color: #555;
+}
+
+.zero {
+    grid-column: span 3;
+    border-radius: 50px;
+    padding: 20px 0px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    width: 90%
+}
